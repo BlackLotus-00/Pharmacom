@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">pharma</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_agdalmap">Map</string>
+    <string name="title_activity_centralmap">Map</string>
+</resources>

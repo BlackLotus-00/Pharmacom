@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+
+        tools:context=".phar">
+
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="370dp"
+            android:layout_height="154dp"
+            android:layout_marginTop="144dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.39"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rect"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="372dp"
+            android:layout_height="152dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.41"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20"
+            app:srcCompat="@drawable/rect"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="44dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView20"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toStartOf="@+id/imageView20"
+            app:layout_constraintTop_toTopOf="@+id/imageView20"
+            app:srcCompat="@drawable/avatar"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="143dp"
+            android:layout_height="77dp"
+            android:text="Pharmacie Gare Agdal"
+            android:textColor="#01030E"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView20"
+            app:layout_constraintEnd_toEndOf="@+id/imageView20"
+            app:layout_constraintHorizontal_bias="0.441"
+            app:layout_constraintStart_toStartOf="@+id/imageView20"
+            app:layout_constraintTop_toTopOf="@+id/imageView20"
+            app:layout_constraintVertical_bias="0.302"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="63dp"
+            android:layout_height="25dp"
+            android:text="Fermé"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView20"
+            app:layout_constraintEnd_toEndOf="@+id/imageView20"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="@+id/imageView20"
+            app:layout_constraintTop_toTopOf="@+id/imageView20"
+            app:layout_constraintVertical_bias="0.697"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="95dp"
+            android:layout_height="82dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView21"
+            app:layout_constraintEnd_toEndOf="@+id/imageView21"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView21"
+            app:layout_constraintTop_toTopOf="@+id/imageView21"
+            app:srcCompat="@drawable/avatar"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="158dp"
+            android:layout_height="90dp"
+            android:text="Pharmacie ENNAJAH"
+            android:textColor="#01030E"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView21"
+            app:layout_constraintEnd_toEndOf="@+id/imageView21"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="@+id/imageView21"
+            app:layout_constraintTop_toTopOf="@+id/imageView21"
+            app:layout_constraintVertical_bias="0.415"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ouvert"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView21"
+            app:layout_constraintEnd_toEndOf="@+id/imageView21"
+            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintStart_toStartOf="@+id/imageView21"
+            app:layout_constraintTop_toTopOf="@+id/imageView21"
+            app:layout_constraintVertical_bias="0.718"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="373dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.421"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView21"
+            app:srcCompat="@drawable/rect"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="86dp"
+            android:layout_height="85dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+            app:layout_constraintEnd_toEndOf="@+id/imageView27"
+            app:layout_constraintHorizontal_bias="0.014"
+            app:layout_constraintStart_toStartOf="@+id/imageView27"
+            app:layout_constraintTop_toTopOf="@+id/imageView27"
+            app:layout_constraintVertical_bias="0.49"
+            app:srcCompat="@drawable/avatar"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="150dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="20dp"
+            android:text="Pharmacie l'AVENIR"
+            android:textColor="#01030E"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+            app:layout_constraintEnd_toEndOf="@+id/imageView27"
+            app:layout_constraintHorizontal_bias="0.379"
+            app:layout_constraintStart_toStartOf="@+id/imageView27"
+            app:layout_constraintTop_toTopOf="@+id/imageView27"
+            app:layout_constraintVertical_bias="0.603"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="71dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="56dp"
+            android:text="Ouvert"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView27"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="@+id/imageView27"
+            app:layout_constraintTop_toTopOf="@+id/textView13"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="373dp"
+            android:layout_height="151dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView27"
+            app:srcCompat="@drawable/rect"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="80dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView29"
+            app:layout_constraintHorizontal_bias="0.02"
+            app:layout_constraintStart_toStartOf="@+id/imageView29"
+            app:layout_constraintTop_toTopOf="@+id/imageView29"
+            app:srcCompat="@drawable/avatar"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="150dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginLeft="92dp"
+            android:layout_marginTop="28dp"
+            android:text="Pharmacie Centrale"
+            android:textColor="#01030E"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView29"
+            app:layout_constraintTop_toTopOf="@+id/imageView29"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="88dp"
+            android:text="Ouvert"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView29"
+            app:layout_constraintHorizontal_bias="0.467"
+            app:layout_constraintStart_toStartOf="@+id/imageView29"
+            app:layout_constraintTop_toTopOf="@+id/imageView29"
+            tools:ignore="HardcodedText" />
+
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="374dp"
+            android:layout_height="174dp"
+            android:layout_marginTop="832dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.432"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rect"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="379dp"
+            android:layout_height="174dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView33"
+            app:srcCompat="@drawable/rect"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="93dp"
+            android:layout_height="87dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView33"
+            app:layout_constraintHorizontal_bias="0.021"
+            app:layout_constraintStart_toStartOf="@+id/imageView33"
+            app:layout_constraintTop_toTopOf="@+id/imageView33"
+            app:srcCompat="@drawable/avatar"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="89dp"
+            android:layout_height="89dp"
+            android:layout_marginTop="76dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView34"
+            app:layout_constraintHorizontal_bias="0.034"
+            app:layout_constraintStart_toStartOf="@+id/imageView34"
+            app:layout_constraintTop_toBottomOf="@+id/imageView33"
+            app:srcCompat="@drawable/avatar"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="156dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="44dp"
+            android:text="Pharmacie Bin EL Ouidane"
+            android:textColor="#01030E"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView33"
+            app:layout_constraintHorizontal_bias="0.449"
+            app:layout_constraintStart_toStartOf="@+id/imageView33"
+            app:layout_constraintTop_toTopOf="@+id/imageView33"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="87dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="108dp"
+            android:text="Fermé"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView33"
+            app:layout_constraintHorizontal_bias="0.465"
+            app:layout_constraintStart_toStartOf="@+id/imageView33"
+            app:layout_constraintTop_toTopOf="@+id/imageView33"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="147dp"
+            android:layout_height="86dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="Pharmacie Al Massira"
+            android:textColor="#01030E"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView34"
+            app:layout_constraintHorizontal_bias="0.363"
+            app:layout_constraintStart_toStartOf="@+id/imageView34"
+            app:layout_constraintTop_toTopOf="@+id/imageView34"
+            tools:ignore="HardcodedText,RtlCompat" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="83dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="104dp"
+            android:text="Ouvert"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView34"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="@+id/imageView34"
+            app:layout_constraintTop_toTopOf="@+id/imageView34"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="94dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="184dp"
+            android:onClick="agda"
+            android:text="infos"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView20"
+            app:layout_constraintEnd_toEndOf="@+id/imageView20"
+            app:layout_constraintHorizontal_bias="0.968"
+            app:layout_constraintStart_toStartOf="@+id/imageView20"
+            app:layout_constraintTop_toTopOf="@+id/imageView20"
+            app:layout_constraintVertical_bias="1.65"
+            tools:ignore="HardcodedText,SmallSp" />
+
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="94dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="184dp"
+            android:onClick="pop"
+            android:text="infos"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView21"
+            app:layout_constraintEnd_toEndOf="@+id/imageView21"
+            app:layout_constraintHorizontal_bias="0.96"
+            app:layout_constraintStart_toStartOf="@+id/imageView21"
+            app:layout_constraintTop_toTopOf="@+id/imageView21"
+            app:layout_constraintVertical_bias="1.65"
+            tools:ignore="HardcodedText,SmallSp" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="94dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="184dp"
+            android:onClick="pop"
+            android:text="infos"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+            app:layout_constraintEnd_toEndOf="@+id/imageView27"
+            app:layout_constraintHorizontal_bias="0.96"
+            app:layout_constraintStart_toStartOf="@+id/imageView27"
+            app:layout_constraintTop_toTopOf="@+id/imageView27"
+            app:layout_constraintVertical_bias="1.65"
+            tools:ignore="HardcodedText,SmallSp" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="94dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="184dp"
+            android:onClick="centra"
+            android:text="infos"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView29"
+            app:layout_constraintEnd_toEndOf="@+id/imageView29"
+            app:layout_constraintHorizontal_bias="0.957"
+            app:layout_constraintStart_toStartOf="@+id/imageView29"
+            app:layout_constraintTop_toTopOf="@+id/imageView29"
+            app:layout_constraintVertical_bias="1.65"
+            tools:ignore="HardcodedText,SmallSp" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="94dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="184dp"
+            android:onClick="pop"
+            android:text="infos"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView33"
+            app:layout_constraintEnd_toEndOf="@+id/imageView33"
+            app:layout_constraintHorizontal_bias="0.989"
+            app:layout_constraintStart_toStartOf="@+id/imageView33"
+            app:layout_constraintTop_toTopOf="@+id/imageView33"
+            app:layout_constraintVertical_bias="1.65"
+            tools:ignore="HardcodedText,SmallSp" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="94dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="184dp"
+            android:text="infos"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView34"
+            app:layout_constraintEnd_toEndOf="@+id/imageView34"
+            app:layout_constraintHorizontal_bias="0.989"
+            app:layout_constraintStart_toStartOf="@+id/imageView34"
+            app:layout_constraintTop_toTopOf="@+id/imageView34"
+            app:layout_constraintVertical_bias="1.65"
+            tools:ignore="HardcodedText,SmallSp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip6"
+            android:layout_width="315dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.927"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <SearchView
+            android:id="@+id/searchView2"
+            android:layout_width="45dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.292"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.926"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_menu_mylocation"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="202dp"
+            android:layout_height="40dp"
+            android:text="Choisir une pharmacie"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView29"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.712"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.046"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView54"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:onClick="mainy"
+            app:layout_constraintEnd_toEndOf="@+id/chip6"
+            app:layout_constraintHorizontal_bias="0.053"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pharm" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
